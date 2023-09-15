@@ -17,3 +17,5 @@ elif guess_number < my_number:
     print("too low, better luck next time")
 elif guess_number > my_number:
     print("you've gone too far, better luck next time")
+
+print(my_number)
