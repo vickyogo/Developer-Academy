@@ -1,19 +1,21 @@
 import random
 
-dice_toss = random.randint(1, 6)
-
 greeting = print("Welcome to roll your dice genius")
+# use random integer, print, while loop
+minValue = 1
+maxValue = 6
 
-choice = int(input('choose your favourite number from 1 to 6 \n'))
-print(choice)
+# initialise variable for the while loop
+rollagain = 'y'
 
-if choice <= dice_toss:
-    print("you nearly made it, go higher with your choice")
-elif choice > dice_toss:
-    print("your choice is off the roof, try a lower number")
-elif choice == dice_toss:
-    print("Good job! you're a Genius!")
-elif choice == ValueError:
-    print("Type a real number")
-else:
-    print("That is incorrect, try again!")
+while rollagain == 'y' or rollagain == 'yes':
+    print('Rolling the dice')
+    dice_value = random.randint(minValue, maxValue)
+    print(f'You rolled a {dice_value}!')
+
+    rollAgain = input("Do you want to try again? Type yes to continue or any other ket to exit: ")
+  
+
+print('Thank you for playing!')
+
+# code doesn't

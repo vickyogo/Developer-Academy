@@ -18,4 +18,4 @@ elif guess_number < my_number:
 elif guess_number > my_number:
     print("you've gone too far, better luck next time")
 
-print(my_number)
+
