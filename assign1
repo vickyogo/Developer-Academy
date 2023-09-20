@@ -1,17 +1,21 @@
 import random
+
 # use random integer, print, while loop
 minValue = 1
 maxValue = 6
+
 # to initialise the variable for the while loop
+
 rollAgain = 'y'
+
 while rollAgain == 'y' or rollAgain == 'yes':
-    print('Rolling the dice')
+    print('Rolling the dice, get set!')
     diceValue = random.randint(minValue, maxValue)
     print(f'You rolled a {diceValue}!')
     # doesn't work with lowercase y or yes, only works with exact specifed parameters
     rollAgain = input(
         'Want to roll again? Please type Yes to continue, or any other key to exit: ').lower()
     print('')
-# might be better to have if condition so any 'no' wouldn't completely end the game
+
 # also considered what happens if random letters are accidentally input
 print('Thank you for playing!')
