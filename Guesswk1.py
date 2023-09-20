@@ -17,7 +17,7 @@ while userGuess == 'wrong':
         elif number > randomValue:
             # indication to let user know how wrong, and go lower
             print("No, go lower. Guess again")
-        elif number < randomValue:
+        else:
             print("No, go higher. Guess again")
     except ValueError:
         print("I said guess a number!")
