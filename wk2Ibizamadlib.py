@@ -1,4 +1,5 @@
-# CREATED BY: SAQIF KHAN, VICTORIA CHIME, and TIDIANE DIALLO
+# Ibiza Madlibs Generator
+
 while True:
     print("\nWELCOME TO IBIZA MAD LIB STORY")
     print("Game Instructions: Please fill in the blanks.")
