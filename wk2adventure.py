@@ -1,6 +1,8 @@
-# CREATED BY: TIDIANE DIALLO, VICTORIA CHIME and SAQIF KHAN
+# Ibiza Text Based Adventure Game
+
 # 6 ROOMS
 # Define the rooms in the game
+
 game_intro = "WELCOME TO IBIZA ADVENTURE ISLAND."
 game_description = "You have found 5 extraterrestrial Gems on the beach and are being chased down by aliens.\nTo hide, you've entered a building but have noticed the aliens have\nspotted you. There's no escape through the front door.\nYou must now escape through the back door! "
 game_instructions = "These 5 gems are extremely valuable, escape and you're sorted for life.\nFind the correct path to the exit. Be careful, if you choose a path leading back to the previous room\n you lose a gem. Lose all 5 gems and it's game over! Good luck.\nYou're going to need it :)"
